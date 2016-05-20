@@ -34,22 +34,6 @@
 		AC3123A11090EB3700000D5F /* UVSuggestionListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31239E1090EB3700000D5F /* UVSuggestionListViewController.m */; };
 		AC31242610911C8600000D5F /* UVSession.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31242310911C8600000D5F /* UVSession.h */; };
 		AC31242710911C8600000D5F /* UVSession.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31242410911C8600000D5F /* UVSession.m */; };
-		AC31253A109231D800000D5F /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = AC31251A109231D800000D5F /* Base64Transcoder.c */; };
-		AC31253B109231D800000D5F /* Base64Transcoder.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31251B109231D800000D5F /* Base64Transcoder.h */; };
-		AC312542109231D800000D5F /* YOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312522109231D800000D5F /* YOAuth.h */; };
-		AC312543109231D800000D5F /* YOAuthConsumer.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312523109231D800000D5F /* YOAuthConsumer.h */; };
-		AC312544109231D800000D5F /* YOAuthConsumer.m in Sources */ = {isa = PBXBuildFile; fileRef = AC312524109231D800000D5F /* YOAuthConsumer.m */; };
-		AC312545109231D800000D5F /* YOAuthRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312525109231D800000D5F /* YOAuthRequest.h */; };
-		AC312546109231D800000D5F /* YOAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC312526109231D800000D5F /* YOAuthRequest.m */; };
-		AC312547109231D800000D5F /* YOAuthSignatureMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312527109231D800000D5F /* YOAuthSignatureMethod.h */; };
-		AC312548109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312528109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.h */; };
-		AC312549109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = AC312529109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.m */; };
-		AC31254A109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31252A109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.h */; };
-		AC31254B109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31252B109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.m */; };
-		AC31254C109231D800000D5F /* YOAuthToken.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31252C109231D800000D5F /* YOAuthToken.h */; };
-		AC31254D109231D800000D5F /* YOAuthToken.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31252D109231D800000D5F /* YOAuthToken.m */; };
-		AC31254E109231D800000D5F /* YOAuthUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31252E109231D800000D5F /* YOAuthUtil.h */; };
-		AC31254F109231D800000D5F /* YOAuthUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31252F109231D800000D5F /* YOAuthUtil.m */; };
 		AC31259E109263F600000D5F /* UVResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AC31259B109263F600000D5F /* UVResponseDelegate.h */; };
 		AC31259F109263F600000D5F /* UVResponseDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC31259C109263F600000D5F /* UVResponseDelegate.m */; };
 		AC312729109667CE00000D5F /* UVUser.h in Headers */ = {isa = PBXBuildFile; fileRef = AC312727109667CE00000D5F /* UVUser.h */; };
@@ -174,22 +158,6 @@
 		AC31239E1090EB3700000D5F /* UVSuggestionListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVSuggestionListViewController.m; sourceTree = "<group>"; };
 		AC31242310911C8600000D5F /* UVSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVSession.h; sourceTree = "<group>"; };
 		AC31242410911C8600000D5F /* UVSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVSession.m; sourceTree = "<group>"; };
-		AC31251A109231D800000D5F /* Base64Transcoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Base64Transcoder.c; path = Vendor/YOAuth/Crypto/Base64Transcoder.c; sourceTree = SOURCE_ROOT; };
-		AC31251B109231D800000D5F /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64Transcoder.h; path = Vendor/YOAuth/Crypto/Base64Transcoder.h; sourceTree = SOURCE_ROOT; };
-		AC312522109231D800000D5F /* YOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuth.h; path = Vendor/YOAuth/YOAuth.h; sourceTree = SOURCE_ROOT; };
-		AC312523109231D800000D5F /* YOAuthConsumer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuthConsumer.h; path = Vendor/YOAuth/YOAuthConsumer.h; sourceTree = SOURCE_ROOT; };
-		AC312524109231D800000D5F /* YOAuthConsumer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YOAuthConsumer.m; path = Vendor/YOAuth/YOAuthConsumer.m; sourceTree = SOURCE_ROOT; };
-		AC312525109231D800000D5F /* YOAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuthRequest.h; path = Vendor/YOAuth/YOAuthRequest.h; sourceTree = SOURCE_ROOT; };
-		AC312526109231D800000D5F /* YOAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YOAuthRequest.m; path = Vendor/YOAuth/YOAuthRequest.m; sourceTree = SOURCE_ROOT; };
-		AC312527109231D800000D5F /* YOAuthSignatureMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuthSignatureMethod.h; path = Vendor/YOAuth/YOAuthSignatureMethod.h; sourceTree = SOURCE_ROOT; };
-		AC312528109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "YOAuthSignatureMethod_HMAC-SHA1.h"; path = "Vendor/YOAuth/YOAuthSignatureMethod_HMAC-SHA1.h"; sourceTree = SOURCE_ROOT; };
-		AC312529109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "YOAuthSignatureMethod_HMAC-SHA1.m"; path = "Vendor/YOAuth/YOAuthSignatureMethod_HMAC-SHA1.m"; sourceTree = SOURCE_ROOT; };
-		AC31252A109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuthSignatureMethod_PLAINTEXT.h; path = Vendor/YOAuth/YOAuthSignatureMethod_PLAINTEXT.h; sourceTree = SOURCE_ROOT; };
-		AC31252B109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YOAuthSignatureMethod_PLAINTEXT.m; path = Vendor/YOAuth/YOAuthSignatureMethod_PLAINTEXT.m; sourceTree = SOURCE_ROOT; };
-		AC31252C109231D800000D5F /* YOAuthToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuthToken.h; path = Vendor/YOAuth/YOAuthToken.h; sourceTree = SOURCE_ROOT; };
-		AC31252D109231D800000D5F /* YOAuthToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YOAuthToken.m; path = Vendor/YOAuth/YOAuthToken.m; sourceTree = SOURCE_ROOT; };
-		AC31252E109231D800000D5F /* YOAuthUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YOAuthUtil.h; path = Vendor/YOAuth/YOAuthUtil.h; sourceTree = SOURCE_ROOT; };
-		AC31252F109231D800000D5F /* YOAuthUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YOAuthUtil.m; path = Vendor/YOAuth/YOAuthUtil.m; sourceTree = SOURCE_ROOT; };
 		AC31259B109263F600000D5F /* UVResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVResponseDelegate.h; sourceTree = "<group>"; };
 		AC31259C109263F600000D5F /* UVResponseDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UVResponseDelegate.m; sourceTree = "<group>"; };
 		AC312727109667CE00000D5F /* UVUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UVUser.h; sourceTree = "<group>"; };
@@ -485,43 +453,9 @@
 			isa = PBXGroup;
 			children = (
 				D2620EAD11B597290053EA4C /* HTTPRiot */,
-				AC312518109231D800000D5F /* YOAuth */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
-		};
-		AC312518109231D800000D5F /* YOAuth */ = {
-			isa = PBXGroup;
-			children = (
-				AC312519109231D800000D5F /* Crypto */,
-				AC312522109231D800000D5F /* YOAuth.h */,
-				AC312523109231D800000D5F /* YOAuthConsumer.h */,
-				AC312524109231D800000D5F /* YOAuthConsumer.m */,
-				AC312525109231D800000D5F /* YOAuthRequest.h */,
-				AC312526109231D800000D5F /* YOAuthRequest.m */,
-				AC312527109231D800000D5F /* YOAuthSignatureMethod.h */,
-				AC312528109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.h */,
-				AC312529109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.m */,
-				AC31252A109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.h */,
-				AC31252B109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.m */,
-				AC31252C109231D800000D5F /* YOAuthToken.h */,
-				AC31252D109231D800000D5F /* YOAuthToken.m */,
-				AC31252E109231D800000D5F /* YOAuthUtil.h */,
-				AC31252F109231D800000D5F /* YOAuthUtil.m */,
-			);
-			name = YOAuth;
-			path = Vendor/YOAuth;
-			sourceTree = SOURCE_ROOT;
-		};
-		AC312519109231D800000D5F /* Crypto */ = {
-			isa = PBXGroup;
-			children = (
-				AC31251A109231D800000D5F /* Base64Transcoder.c */,
-				AC31251B109231D800000D5F /* Base64Transcoder.h */,
-			);
-			name = Crypto;
-			path = Vendor/YOAuth/Crypto;
-			sourceTree = SOURCE_ROOT;
 		};
 		AC35306711014CB6006FD1C1 /* Views */ = {
 			isa = PBXGroup;
@@ -661,15 +595,6 @@
 				AC3123A01090EB3700000D5F /* UVSuggestionListViewController.h in Headers */,
 				D99BC43E17EB751500AED65E /* UVDeflection.h in Headers */,
 				AC31242610911C8600000D5F /* UVSession.h in Headers */,
-				AC31253B109231D800000D5F /* Base64Transcoder.h in Headers */,
-				AC312542109231D800000D5F /* YOAuth.h in Headers */,
-				AC312543109231D800000D5F /* YOAuthConsumer.h in Headers */,
-				AC312545109231D800000D5F /* YOAuthRequest.h in Headers */,
-				AC312547109231D800000D5F /* YOAuthSignatureMethod.h in Headers */,
-				AC312548109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.h in Headers */,
-				AC31254A109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.h in Headers */,
-				AC31254C109231D800000D5F /* YOAuthToken.h in Headers */,
-				AC31254E109231D800000D5F /* YOAuthUtil.h in Headers */,
 				AC31259E109263F600000D5F /* UVResponseDelegate.h in Headers */,
 				AC312729109667CE00000D5F /* UVUser.h in Headers */,
 				AC3127EA10976ED800000D5F /* UVSuggestion.h in Headers */,
@@ -796,13 +721,6 @@
 				D94427AD1811B90E002F716B /* UVInstantAnswersViewController.m in Sources */,
 				D90A608B1857972A00D028DE /* UVTextWithFieldsView.m in Sources */,
 				AC31242710911C8600000D5F /* UVSession.m in Sources */,
-				AC31253A109231D800000D5F /* Base64Transcoder.c in Sources */,
-				AC312544109231D800000D5F /* YOAuthConsumer.m in Sources */,
-				AC312546109231D800000D5F /* YOAuthRequest.m in Sources */,
-				AC312549109231D800000D5F /* YOAuthSignatureMethod_HMAC-SHA1.m in Sources */,
-				AC31254B109231D800000D5F /* YOAuthSignatureMethod_PLAINTEXT.m in Sources */,
-				AC31254D109231D800000D5F /* YOAuthToken.m in Sources */,
-				AC31254F109231D800000D5F /* YOAuthUtil.m in Sources */,
 				AC31259F109263F600000D5F /* UVResponseDelegate.m in Sources */,
 				AC31272A109667CE00000D5F /* UVUser.m in Sources */,
 				AC3127EB10976ED800000D5F /* UVSuggestion.m in Sources */,
